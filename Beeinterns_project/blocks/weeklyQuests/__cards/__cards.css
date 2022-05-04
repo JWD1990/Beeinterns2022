@@ -1,0 +1,7 @@
+.weeklyQuests__cards{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    height: 294px;
+    overflow: hidden;
+}

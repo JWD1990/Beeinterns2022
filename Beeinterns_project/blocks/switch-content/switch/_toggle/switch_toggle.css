@@ -1,0 +1,9 @@
+.switch_toggle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #6F6EFF;
+    margin: 3px;
+    box-sizing: border-box;
+    transition: transform 0.4s ease;
+}

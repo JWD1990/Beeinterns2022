@@ -1,0 +1,11 @@
+.header{
+    border-bottom: 1px solid rgba(255,255, 255, 0.1);
+    height: 58px;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-left: 280px;
+    padding-right: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,12 @@
+.bubble-lectures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6F6EFF;
+    border-radius: 6px;
+    width: 86px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}

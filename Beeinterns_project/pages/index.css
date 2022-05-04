@@ -1,0 +1,49 @@
+/* base */
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav-section/header__nav-section.css);
+@import url(../blocks/header/__nav-item/header__nav-item.css);
+@import url(../blocks/header/__nav-item-link/header__nav-item-link.css);
+/* nav */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/navbar-logo/-logo.css);
+@import url(../blocks/navbar/__accordion/__accordion.css);
+@import url(../blocks/navbar/__accordion/__item/__item.css);
+@import url(../blocks/navbar/__accordion/__item/-text/-text.css);
+@import url(../blocks/navbar/__accordion/__plaсe/__plaсe.css);
+@import url(../blocks/navbar/__logo-item/__logo-item.css);
+/* nav - switch */
+@import url(../blocks/switch-content/switch-content.css);
+@import url(../blocks/switch-content/switch/switch.css);
+@import url(../blocks/switch-content/switch/_label/switch_label.css);
+@import url(../blocks/switch-content/switch/_toggle/switch_toggle.css);
+/* content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/weeklyQuests/weeklyQuests.css);
+@import url(../blocks/weeklyQuests/-title/-title.css);
+@import url(../blocks/weeklyQuests/-subtitle/-subtitle.css);
+@import url(../blocks/weeklyQuests/__cards/__cards.css);
+@import url(../blocks/weeklyQuests/slider/slider-button/slider-button.css);
+@import url(../blocks/weeklyQuests/slider/sliderFirst/Firstbth.css);
+@import url(../blocks/weeklyQuests/slider/sliderFirst/-line/-line.css);
+@import url(../blocks/weeklyQuests/slider/sliderSecond/bthSecond.css);
+@import url(../blocks/weeklyQuests/slider/sliderSecond/-line-2/-line-2.css);
+@import url(../blocks/weeklyQuests/__cards/card/-photo/-photo.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/-item.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__title/__title.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__subtitle/__subtitle.css);
+@import url(../blocks/weeklyQuests/__cards/card/__text/__text.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__info/__info.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__info/-date/-date.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__info/-btn/-btn.css);
+@import url(../blocks/bubble-information/bubble-information.css);
+@import url(../blocks/purple-bubble/purple-bubble.css);
+@import url(../blocks/bth-purple/bth-purple.css);
+@import url(../blocks/bubble-lectures/bubble-lectures.css);
+@import url(../blocks/info-lectures/info-lectures.css);
+/* content adaptive*/
+@import url(../blocks/content/_desktop/content_desktop.css);

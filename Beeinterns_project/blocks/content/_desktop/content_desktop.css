@@ -1,0 +1,30 @@
+@media (min-width: 1200px){
+    .content_desktop__wide{
+        margin-left: 375px;
+    }
+}
+@media (min-width: 1366px){
+    .content_desktop__wide{
+        margin-left: 425px;
+    }
+}
+@media (min-width: 1920px){
+    .content_desktop__wide{
+        margin-left: 475px;
+    }
+}
+@media (min-width: 2048px){
+    .content_desktop__wide{
+        margin-left: 525px;
+    }
+}
+@media (min-width: 2560px){
+    .content_desktop__wide{
+        margin-left: 575px;
+    }
+}
+@media (min-width: 3840px){
+    .content_desktop__wide{
+        margin-left: 700px;
+    }
+}

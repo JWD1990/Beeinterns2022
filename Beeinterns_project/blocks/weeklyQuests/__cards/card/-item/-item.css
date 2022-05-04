@@ -1,0 +1,8 @@
+.card-item{
+    width: 255px;
+    height: 294px;
+    margin-right: 15px;
+    background-color: #363744;
+    border-radius: 6px;
+    position: relative;
+}

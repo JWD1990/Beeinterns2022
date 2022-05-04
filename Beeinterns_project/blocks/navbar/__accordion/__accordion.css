@@ -1,0 +1,37 @@
+.navbar__accordion {
+    background-color: #303240;
+    color: #F2F2F2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+.active, .navbar__accordion:hover, .navbar__not-accordion:hover {
+    background-color: #393B51;
+    border-left: 3px solid #6F6EFF;
+}
+
+.navbar__not-accordion {
+    background-color: #303240;
+    color: #F2F2F2;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.navbar__accordion__plaсe:hover {
+    background-color: #393B51;
+    border-left: 3px solid #6F6EFF;
+}

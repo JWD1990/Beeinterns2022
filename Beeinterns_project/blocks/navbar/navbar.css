@@ -1,0 +1,22 @@
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #303240;
+}
+
+.navbar__panel {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+

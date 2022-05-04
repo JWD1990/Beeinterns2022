@@ -1,0 +1,13 @@
+a, .card-item__info-btn{
+    text-decoration: none;
+}
+
+.card-item__info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.card-item__info-btn:hover { background-color: rgba(107, 105, 249, 0.91); }
+.card-item__info-btn:active { background-color: #6F6EFF;  }

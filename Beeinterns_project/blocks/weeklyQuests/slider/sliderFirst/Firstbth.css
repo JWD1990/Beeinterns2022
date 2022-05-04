@@ -1,0 +1,41 @@
+.bth-left, .bth-right {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(255,255, 255, 0.1);
+    display: inline-flex;
+    border-radius: 6%;
+    cursor: pointer;
+    position: relative;
+    margin: 5px
+}
+
+.bth-left::before, .bth-right::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+}
+
+.bth-left::before{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 11px;
+}
+
+.bth-right::before{
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    top: 10px;
+    left: 11px;
+}
+
+.bth-left:hover, .bth-right:hover{
+    background-color: lightgrey;
+}
+
+.bth-left:hover::before,.bth-right:hover::before{
+    border-color: gray;
+}
