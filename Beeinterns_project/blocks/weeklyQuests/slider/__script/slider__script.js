@@ -1,3 +1,5 @@
+// добавил еще в тестовом задании
+// весь файл slider_script.js
 const sliderLine = document.querySelectorAll('.slider-line');
 
 for (let i = 0; i < sliderLine.length; i++ ){
