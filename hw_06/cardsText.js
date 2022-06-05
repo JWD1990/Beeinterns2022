@@ -7,7 +7,6 @@ cardsTitle.forEach((cardTitle) => {
 
 cardsSubtitle.forEach((cardSubtitle) =>{
     if (cardSubtitle.textContent.length > 20){
-        console.log(cardSubtitle.textContent)
         cardSubtitle.textContent = cardSubtitle.textContent.substr(0,20) + '...'
     }
 })
