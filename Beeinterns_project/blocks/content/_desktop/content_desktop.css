@@ -1,9 +1,9 @@
 @media screen and (min-width: 1200px){
     .content_desktop__wide{
-        margin-left: 258px;
+        margin-left: 280px;
     }
     .navbar{
-        width: 250px;
+        width: 255px;
     }
 }
 /*@media (max-width: 1366px){*/
