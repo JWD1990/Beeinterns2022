@@ -21,6 +21,7 @@
 @import url(../blocks/switch-content/switch/switch.css);
 @import url(../blocks/switch-content/switch/_label/switch_label.css);
 @import url(../blocks/switch-content/switch/_toggle/switch_toggle.css);
+@import url(../blocks/navbar/__arrow/navbar__arrow.css);
 /* content */
 @import url(../blocks/content/content.css);
 @import url(../blocks/weeklyQuests/weeklyQuests.css);
