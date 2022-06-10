@@ -35,3 +35,8 @@
     background-color: #393B51;
     border-left: 3px solid #6F6EFF;
 }
+
+.navbar__arrowArea{
+    position: relative;
+    z-index: 1;
+}

@@ -14,6 +14,11 @@
     .weeklyQuests-subtitle{
         margin-bottom: 15px;
     }
+    .navbar__arrow{
+        position: absolute;
+        left: 200px;
+        top: 25px;
+    }
 
 }
 
