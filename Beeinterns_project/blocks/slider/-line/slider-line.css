@@ -2,6 +2,7 @@
     width: 1080px;
     height: 294px;
     display: flex;
+    /*justify-content: space-between;*/
     position: relative;
     left: 0;
     transition: all ease 1s;

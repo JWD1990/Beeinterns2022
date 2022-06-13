@@ -28,17 +28,18 @@
 @import url(../blocks/weeklyQuests/-title/weeklyQuests-title.css);
 @import url(../blocks/weeklyQuests/-subtitle/weeklyQuests-subtitle.css);
 @import url(../blocks/weeklyQuests/__cards/weeklyQuests__cards.css);
-@import url(../blocks/weeklyQuests/slider/slider-button/slider-button.css);
-@import url(../blocks/weeklyQuests/slider/sliderFirst/Firstbth.css);
-@import url(../blocks/weeklyQuests/slider/sliderFirst/-line/slider-line.css);
-@import url(../blocks/weeklyQuests/slider/sliderSecond/bthSecond.css);
-@import url(../blocks/weeklyQuests/slider/sliderSecond/-line-2/slider-line-2.css);
+/* slider */
+@import url(../blocks/slider/-arrows_bth/slider-arrows_bth.css);
+@import url(../blocks/slider/-button/slider-button.css);
+@import url(../blocks/slider/-categories/slider-categories.css);
+@import url(../blocks/slider/-line/slider-line.css);
+/* content */
 @import url(../blocks/weeklyQuests/__cards/card/-photo/card-photo.css);
 @import url(../blocks/weeklyQuests/__cards/card/-item/card-item.css);
 @import url(../blocks/weeklyQuests/__cards/card/-item/__title/__title.css);
 @import url(../blocks/weeklyQuests/__cards/card/-item/__subtitle/card-item__subtitle.css);
 @import url(../blocks/weeklyQuests/__cards/card/__text/card__text.css);
-@import url(../blocks/weeklyQuests/__cards/card/-item/__info/__info.css);
+@import url(../blocks/weeklyQuests/__cards/card/-item/__info/card-item__info.css);
 @import url(../blocks/weeklyQuests/__cards/card/-item/__info/-date/card-item__info-date.css);
 @import url(../blocks/weeklyQuests/__cards/card/-item/__info/-btn/card-item__info-btn.css);
 @import url(../blocks/bubble-information/bubble-information.css);
