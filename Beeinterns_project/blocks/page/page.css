@@ -13,6 +13,5 @@ body{
 }
 
 html, body, navbar{
-    min-height: 100% !important;
     height: 100%;
 }

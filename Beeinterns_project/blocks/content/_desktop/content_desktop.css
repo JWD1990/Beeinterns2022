@@ -2,37 +2,32 @@
     .content_desktop__wide{
         margin-left: 280px;
     }
-    .content{
-        margin-top: 18px;
-    }
     .navbar{
         width: 255px;
     }
-    .weeklyQuests{
-        margin-bottom: 26px;
-    }
-    .weeklyQuests-subtitle{
-        margin-bottom: 15px;
-    }
-    .navbar__arrow{
-        position: absolute;
-        left: 200px;
-        top: 25px;
-    }
-
 }
-
-@media screen and (min-width: 1440px){
-    .content_desktop__wide{
-        margin-left: 325px;
-    }
-    .navbar{
-        width: 280px;
-    }
-}
-
+/*@media (max-width: 1366px){*/
+/*    .content_desktop__wide{*/
+/*        margin-left: 425px;*/
+/*    }*/
+/*}*/
 @media screen and (min-width: 1920px){
     .content_desktop__wide{
-        margin-left: 425px;
+        margin-left: 475px;
+    }
+}
+@media screen and  (min-width: 2048px){
+    .content_desktop__wide{
+        margin-left: 525px;
+    }
+}
+@media  screen and  (min-width: 2560px){
+    .content_desktop__wide{
+        margin-left: 575px;
+    }
+}
+@media screen and  (min-width: 3840px){
+    .content_desktop__wide{
+        margin-left: 700px;
     }
 }
