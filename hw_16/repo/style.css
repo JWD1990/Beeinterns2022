@@ -1,0 +1,174 @@
+* {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  margin: 0;
+  padding: 50px 0 90px;
+
+  width: 100%;
+  color: #313031;
+  background-color: #f9f9f9;
+}
+
+form {
+  margin: 0 auto;
+  padding: 20px;
+
+  display: block;
+  max-width: 650px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+.heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.field-container {
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 185px;
+  display: inline-block;
+  user-select: none;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.label.long {
+  width: 320px;
+}
+
+.fieldset {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #00103b;
+}
+
+.legend {
+  background: #00103b;
+  color: white;
+  font-weight: 500;
+  border-radius: 13px;
+  padding: 9px;
+}
+
+.field {
+  padding: 5px 20px 5px 10px;
+
+  width: 200px;
+  box-sizing: content-box;
+
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  background: white;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+input:focus {
+  border-color: #00103a;
+}
+
+.radio {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  margin: 0 4px 0 0;
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #00103b;
+
+  transform: translateY(4px);
+  outline-style: none;
+}
+
+.radio:checked {
+  border: 7px solid #00103b;
+  background-color: #09f19e;
+}
+
+.radio:focus {
+  box-shadow: 0 0 0 0.2em rgba(25, 57, 150, .5);
+}
+
+.textarea {
+  padding: 10px 15px;
+
+  height: 100px;
+  width: 390px;
+  outline-color: #00103a;
+  resize: none;
+
+  font-size: 16px;
+  line-height: 22px;
+  border: 2px solid #c2c2c2;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.button {
+  padding: 10px;
+
+  width: 140px;
+  height: 50px;
+
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #f9f9f9;
+  border-radius: 10px;
+  border: 4px solid transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  transition: transform .18s ease-in-out;
+}
+
+.button.submit {
+  margin-right: 30px;
+
+  background: #dd567e;
+  border-color: #c93964;
+}
+
+.button.submit:active {
+  background: #c93964;
+  border-color: #ac254d;
+}
+
+.button.reset {
+  background: #4eafc9;
+  border-color: #2a89a2;
+}
+
+.button.reset:active {
+  background: #2a89a2;
+  border-color: #1d6f85;
+}
