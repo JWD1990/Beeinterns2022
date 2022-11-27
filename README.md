@@ -1,3 +1,5 @@
+# исходная репа: https://gitlab.com/TheZnat/Beeinterns2022
+
 # Beeinterns2022
 
 # Курс от Билайна 
